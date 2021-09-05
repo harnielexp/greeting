@@ -1,0 +1,63 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://c.tenor.com/Rdz9M0h2BoQAAAAC/confetti.gif);
+    max-width: 100vw;
+    height: 100vh;
+}
+
+.tenor-gif-embed {
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.H, .A, .P, .P, .Y, .B, .I, .R, .T, .H, .D, .A, .Y {
+    background-color: darkgoldenrod;
+    padding: 20px;
+    border-radius: 100px;
+    margin: 5px;
+}
+
+.inner {
+    display: flex;
+    gap: 20px;
+}
+
+div {
+    display: flex;
+}
+
+.set1 {
+    background-color: darkred;
+    box-shadow: 0px 0px 5px 5px rgba(172, 50, 46, 0.308);
+    padding: 30px;
+    border-radius: 10px;
+    animation: move 5s ease-in-out;
+}
+
+@keyframes move {
+    0% {transform: translateX(-150%);}
+    100% {transform: translateX(0);}
+}
+
+.set2 {
+    background-color: yellowgreen;
+    box-shadow: 0px 0px 5px 5px rgba(180, 80, 67, 0.356);
+    padding: 30px;
+    border-radius: 10px;
+    animation: moves 5s ease-in-out;
+}
+
+@keyframes moves {
+    0% {transform: translateX(150%);}
+    100% {transform: translateX(0);}
+}
+
